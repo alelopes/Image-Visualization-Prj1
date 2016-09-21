@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1474437458 source:/home/alexandre/Downloads/mc820/VizualizacaoProject/image2dslicer.c
+	"include/image2dSlicer.h"
+
+1474498367 /home/alexandre/Downloads/mc820/VizualizacaoProject/include/image2dSlicer.h
+	"math.h"
+	<stdio.h>
+	<png.h>
+
+1474497545 source:/home/alexandre/Downloads/mc820/VizualizacaoProject/main.c
+	<stdio.h>
+	<stdlib.h>
+	"include/lineartransformations.h"
+
+1474437589 source:/home/alexandre/Downloads/mc820/VizualizacaoProject/linartransformations.c
+	"include/lineartransformations.h"
+
+1474498122 /home/alexandre/Downloads/mc820/VizualizacaoProject/include/lineartransformations.h
+	"image2dSlicer.h"
+	<math.h>
+
+1474498845 source:/home/alexandre/Downloads/mc820/VizualizacaoProject/src/image2dslicer.c
+	"../include/image2dSlicer.h"
+
+1474498850 source:/home/alexandre/Downloads/mc820/VizualizacaoProject/src/linartransformations.c
+	"../include/lineartransformations.h"
+
+1474498855 source:/home/alexandre/Downloads/mc820/VizualizacaoProject/src/main.c
+	<stdio.h>
+	<stdlib.h>
+	"../include/lineartransformations.h"
+
